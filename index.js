@@ -47,7 +47,7 @@ app.get('/api/notifications', async (req, res) => {
   }
 });
 
-// DELETE route for deleting a notification by ID
+// DELETE route for deleting a notification by ID-
 app.delete('/api/notifications/:id', async (req, res) => {
     const { id } = req.params;  // Get notification ID from the URL parameter
     try {
